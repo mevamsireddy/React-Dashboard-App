@@ -3,9 +3,9 @@ This project is a React-based dashboard application with various components for 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/FormApp.png)
-![Screenshot 2](screenshots/ViewSubmissions.png)
-![Screenshot 3](screenshots/CreateSubmissions.png)
+![Screenshot 1](screenshots/Screenshot1.png)
+![Screenshot 2](screenshots/Screenshot2.png)
+![Screenshot 3](screenshots/Screenshot3.png)
 
 ## Project Stucture
 ```bash
@@ -54,7 +54,7 @@ Follow these steps to set up and run the application locally:
 
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/mevamsireddy/React-Dashboard-App.git
 ```
 ### 2. Navigate to the Project Directory
 Change to the project directory:
