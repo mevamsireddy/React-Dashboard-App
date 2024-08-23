@@ -1,0 +1,138 @@
+.registry-scan-dashboard {
+    padding: 20px;
+}
+
+.registry-scan-title {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.registry-scan-widgets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.registry-scan-widget {
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.registry-scan-widget:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.registry-scan-widget-title {
+    margin-bottom: 15px;
+    font-size: 12pt;
+}
+
+.registry-scan-total {
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.registry-scan-total strong {
+    margin-left: 10px;
+}
+
+.registry-scan-graph-container {
+    margin-bottom: 10px;
+    width: 90%;
+    height: 10px;
+    position: relative;
+}
+
+.registry-scan-status-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 10%;
+}
+
+.registry-scan-status-list div {
+    display: flex;
+    align-items: center;
+    margin-top: 5x;
+}
+
+.status-icon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.status-icon.critical {
+    background-color: #6E0F0A;
+}
+
+.status-icon.high {
+    background-color: #C82819;
+}
+
+.status-icon.medium {
+    background-color: #EB9132;
+}
+
+.status-icon.low {
+    background-color: #F0C341;
+}
+
+.new {
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+.registry-scan-remove-widget {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+    font-size: 1.5em;
+}
+
+.registry-scan-add-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.registry-scan-bar-graph-icon {
+    margin-top: 10%;
+}
+
+.registry-scan-add-widget-icon {
+    font-size: 12pt;
+    margin-right: 10px;
+}

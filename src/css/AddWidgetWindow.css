@@ -1,0 +1,134 @@
+.add-widget-window {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid #ddd;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.add-widget-header {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 20px);
+}
+
+.add-widget-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+}
+
+.category-list {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    overflow-x: auto;
+}
+
+.category-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.category-button.active {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.widget-list {
+    flex: 1;
+    padding: 10px;
+}
+
+.widget-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.widget-item input {
+    margin-right: 10px;
+}
+
+.add-new-widget {
+    margin-top: 20px;
+    position: relative;
+    display: none;
+}
+
+.add-new-widget.show {
+    display: block;
+}
+
+.add-new-widget input {
+    width: calc(100% - 60px);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dropdown-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 90%;
+    text-align: left;
+
+    margin-top: 20px;
+}
+
+.button-group {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: calc(100% - 20px);
+}
+
+.cancel-button,
+.confirm-button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.confirm-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+}

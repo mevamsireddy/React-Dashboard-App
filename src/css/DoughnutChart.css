@@ -1,0 +1,38 @@
+.doughnut-container {
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+
+.doughnut-graph {
+    width: 50%;
+    height: 50%;
+}
+
+.inner-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-value {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.inner-circle div:last-child {
+    font-size: 1em;
+    color: grey;
+}

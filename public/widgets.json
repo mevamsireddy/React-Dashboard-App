@@ -1,0 +1,77 @@
+{
+    "categories": [
+      {
+        "id": "1",
+        "name": "CSPM Executive",
+        "widgets": [
+          {
+            "id": "1",
+            "name": "Cloud Accounts",
+            "text": "Text for Cloud Accounts",
+            "graphData": {
+              "labels": ["Connected", "Not Connected"],
+              "data": [2, 2],
+              "backgroundColor": ["#5578FF", "#E1EBFF"]
+            }
+          },
+          {
+            "id": "2",
+            "name": "Cloud Account Risk Assessment",
+            "text": "Text for Risk Assessment",
+            "graphData": {
+              "labels": ["Failed", "Warning", "Not Available", "Passed"],
+              "data": [1689, 681, 36, 7253],
+              "backgroundColor": ["#B9140F", "#FAD732", "#C8CDDC", "#19A55A"]
+            }
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "CWPP",
+        "widgets": [
+          {
+            "id": "1",
+            "name": "Top 5 Namespace Specific Alerts",
+            "text": "No Graph data available!",
+            "graphData": null
+          },
+          {
+            "id": "2",
+            "name": "Workload Alerts",
+            "text": "No Graph data available!",
+            "graphData": null
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Registry Scan",
+        "widgets": [
+          {
+            "id": "1",
+            "name": "Image Risk Assessment",
+            "text": "Total Vulnerabilities",
+            "graphData": {
+              "total": 1470,
+              "labels": ["Critical", "High", "Medium", "Low"],
+              "data": [9, 150, 830, 481],
+              "colors": ["#6E0F0A", "#C82819", "#EB9132", "#F0C341"]
+            }
+          },
+          {
+            "id": "2",
+            "name": "Image Security Issues",
+            "text": "Total Images",
+            "graphData": {
+              "total": 2,
+              "labels": ["Critical", "High", "Medium", "Low"],
+              "data": [2, 2, 2, 2],
+              "colors": ["#6E0F0A", "#C82819", "#EB9132", "#F0C341"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

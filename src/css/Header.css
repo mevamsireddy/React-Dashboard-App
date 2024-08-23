@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.search-bar-container {
+    position: relative;
+    flex-grow: 1;
+    margin: 0 200px;
+}
+
+.custom-search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.custom-search-icon {
+    margin-right: 10px;
+    color: #888;
+}
+
+.custom-search-input {
+    border: none;
+    background: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.custom-search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    border-radius: 0 0 5px 5px;
+}
+
+.custom-search-result-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-search-result-item:hover {
+    background-color: #f9f9f9;
+}
+
+.custom-widget-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.custom-widget-category {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons .notification-icon,
+.icons .user-account-icon {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #555;
+}

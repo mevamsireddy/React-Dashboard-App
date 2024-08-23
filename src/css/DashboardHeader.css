@@ -1,0 +1,36 @@
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.dashboard-title {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dashboard-controls {
+    display: flex;
+    align-items: center;
+}
+
+.control-button {
+    margin-left: 8px;
+    padding: 8px 12px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.control-button .material-icons {
+    margin-right: 4px;
+}
+
+.time-control {
+    border-color: blue;
+}

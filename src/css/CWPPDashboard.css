@@ -1,0 +1,77 @@
+.cwpp-dashboard {
+    padding: 20px;
+}
+
+.cwpp-dashboard-subtitle {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cwpp-widget-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.widget {
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cwpp-widget-title {
+    margin-bottom: 15px;
+    font-size: 12pt;
+}
+
+.cwpp-widget-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new {
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+    margin-bottom: 20%;
+}
+
+.cwpp-remove-widget {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+    font-size: 1.5em;
+}
+
+.cwpp-add-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cwpp-bar-graph-icon {
+    margin-top: 10%;
+}
+
+.cwpp-add-widget-icon {
+    font-size: 12pt;
+    margin-right: 10px;
+}
